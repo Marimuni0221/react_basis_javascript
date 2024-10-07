@@ -125,3 +125,13 @@
 // const { age, name = "ゲスト" } = myProfile;
 // console.log(age);
 // console.log(name);
+
+/**
+ * オブジェクトの省略記法
+ */
+const name = "まり"; 
+const age = 29;
+
+const myProfile = { name, age };
+
+console.log(myProfile);
